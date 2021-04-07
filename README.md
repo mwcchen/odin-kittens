@@ -1,24 +1,5 @@
-# README
+Project for practising RESTful JSON API creation from http://www.theodinproject.com
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You can access the JSON API using REST Client on IRB. Only supports getting data from Index and Show actions, you can create and manage data on the site itself.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Deployed on Heroku here: https://agile-garden-50295.herokuapp.com/
