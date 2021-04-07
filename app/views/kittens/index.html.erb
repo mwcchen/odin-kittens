@@ -1,5 +1,6 @@
+List of Kittens<br>
 <% @kittens.each do |kitten| %>
   <%= link_to kitten.name, kitten %>
-  <%= link_to "Delete Kitten", kitten, method: :delete, data: { confirm: "Are you sure?" } %>
+  <%= link_to "Delete Kitten", kitten, method: :delete, data: { confirm: "Are you sure?" } %><br>
 <% end %><br>
 <%= link_to "New Kitten", new_kitten_path %>
